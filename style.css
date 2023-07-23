@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kufam:ital,wght@1,900&family=Lemonada:wght@700&family=Open+Sans:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Rajdhani:wght@500&family=Russo+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kufam:ital,wght@1,900&family=Lemonada:wght@700&family=Open+Sans:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Rajdhani:wght@500&family=Russo+One&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Poppins;
+  scroll-behavior: smooth;
+}
+section.landing {
+  padding: 40px 20px;
+  background-image: url(images/bg-hero-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #f3fcfd;
+}
+nav {
+  padding: 10px 120px;
+}
+nav div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 15px;
+}
+nav div .try-it {
+  background-color: #ffffff;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  border-radius: 172px;
+  box-shadow: 1px 2px 24px -10px;
+  transition: 1s ease;
+}
+.landing-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  margin: 100px 0px;
+  padding: 0px 40px;
+}
+.landing-img img {
+  height: 500px;
+}
+.landing-para {
+  font-family: open-sans;
+  padding-right: 65px;
+}
+.landing-para h1 {
+  font-size: 7vh;
+}
+.landing-para p {
+  margin-top: 25px;
+}
+.landing-para div.try-it {
+  background-color: hsl(322, 100%, 66%);
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  border-radius: 172px;
+  transition: 1s ease;
+  margin-top: 30px;
+  color: white;
+}
+.landing-para div.try-it:hover {
+  background-color: hsl(319, 100%, 77%);
+}
+.child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 0px 35px -27px;
+  padding: 60px;
+  border-radius: 50px;
+  margin: 50px 0px
+}
+.child .child-img img {
+  height: 300px;
+}
+.sec-father {
+  padding: 120px;
+}
+.child-para {
+  padding: 100px;
+  text-align: center;
+  font-size: 21px;
+}
